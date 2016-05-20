@@ -1,0 +1,134 @@
+body{
+	background-color : rgb(241,241,241);
+	}
+	.copy{
+	opacity:0.30;
+	}
+	#head{
+	color:rgb(115,173,33);
+	}
+	#textcolor{
+	float:left;
+	background-color:rgb(221,221,221);
+	width:180px;
+	height:20px;
+	text-align:center;
+	text-decoration:underline;
+	}
+
+	.colors{
+	width:180px;
+	background-color:rgb(221,221,221);
+	display:none;
+	text-align:left;
+	}
+	#options{
+    position: relative;
+    width: 140px;
+    background-color: rgb(221,221,221);
+	}
+	.animateOptions
+	{
+	display:none;
+	text-align:left;
+	
+	}
+	
+	#closebtn{
+	float:right;
+	}
+	
+	#sizeclosebtn{
+	float:right;
+	}
+	#txt{
+	width:900px;
+	height:200px;
+	background-color:rgb(150,150,150);
+	position:relative;
+	}
+	#txtsize{
+	width:140px;
+	background-color:rgb(221,221,221);
+	display:none;
+	text-align:left;
+	
+	}
+
+	#selectanimate{
+	width:140px;
+	background-color:rgb(221,221,221);
+	text-align:left;
+	}
+	#text{
+	position:absolute;
+	top:5px;
+	 
+	}
+	.selected{
+	border : 2px solid white;
+	}
+	#Objtext{  
+	position: absolute;
+    top: 50px;
+	}
+	#Obj3{  
+	position: absolute;
+    top: 100px;
+	}	
+		
+	#textFade{
+
+	background-color:rgb(221,221,221);
+	width:140px;
+	height:20px;
+	text-align:center;
+	text-decoration:underline;
+	}
+	#movetext{
+	background-color:rgb(221,221,221);
+	width:140px;
+	height:20px;
+	text-align:center;
+	text-decoration:underline;
+	}
+	#splittext{
+	background-color:rgb(221,221,221);
+	width:140px;
+	height:20px;
+	text-align:center;
+	text-decoration:underline;
+	}
+	
+	#size{
+	float:left;
+	background-color:rgb(221,221,221);
+	width:140px;
+	height:20px;
+	text-align:center;
+	text-decoration:underline;
+	}
+	#animatetext{
+	float:left;
+	background-color:rgb(221,221,221);
+	width:140px;
+	height:20px;
+	text-align:center;
+	text-decoration:underline;
+	}
+	#time{
+	width:140;
+	}
+	#delay{
+	width:140;
+	}
+	.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+    }

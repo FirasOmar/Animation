@@ -1,0 +1,93 @@
+
+	 <html>
+	 <head>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script src="common.js" ></script>
+	<!--<script src="linkedlist.js" ></script>-->
+	<link rel="stylesheet" type="text/css" href="common.css">
+	
+	
+	 <title>animation</title>
+	 </head>
+	 <body>
+	 <header align = center><h1 id="head"> text animation  </h1></header>
+   
+   </div>
+   <table align=center>	
+   <tr>
+   <td><input type="text" name="animationTime" placeholder="speed" id="time" ></td>
+   <td><input type="text" name="animationTime" placeholder="delay" id="delay"></td>
+   <td><button id="setbtn">set</button></td>
+   <td><button id="previewbtn">preview</button></td>
+   <td><div id="options">options:
+   
+	<select id="selectanimate">
+	<option value="split" id="split">split</option>
+	<option value="fade" id="fade">fade</option>
+	<option value="move" id="move">move</option>
+	</select>
+  <!-- <form>
+   <input type="radio" name="animate" value="1" class="radioanimate" id="split" > <span  >split</span>
+  <br>
+  <input type="radio" name="animate" value="2" class="radioanimate" id="fade"> <span >fade</span>
+  <br>
+  <input type="radio" name="animate" value="3" class="radioanimate" id ="move"> <span >move</span>
+   </form>
+   -->
+   </td>
+   
+   </tr>
+   <tr ><td colspan="6"><div id="txt">
+   <div> <h1 id="text" class="parent"> text1</h1>
+   </div> 
+	<div><h1 id="Objtext" class="parent"> object text1</h1></div>
+	<!--<div><h1 id="Obj3" class="parent"> third object</h1></div> -->
+   </div></td></tr>
+	
+	<tr>
+	<td ><div id="animatetext">animate  </div></td>
+	<td ><div id="textFade">Fade text </div></td>
+	<td><div id="movetext">move text</div></td>
+	<td><div id="splittext">split text</div></td>
+	<td><div id="textcolor">choose text color 
+	 <div class="colors"> 
+	 <form>
+  <input type="radio" name="color" value="1" class="radiocolor" id="red" > <span style="color:red" >red</span>
+  <br>
+  <input type="radio" name="color" value="2" class="radiocolor" id="rgb(255, 131, 0)"> <span style="color:orange">orange</span>
+  <br>
+  <input type="radio" name="color" value="3" class="radiocolor" id="green"> <span style="color:green">green</span>
+  <br>
+  <input type="radio" name="color" value="4" class="radiocolor" id="blue"> <span style="color:blue" >blue</span>
+  <br>
+  <input type="radio" name="color" value="5" class="radiocolor" id="black"> <span style="color:black">black</span>
+  <br>
+  <input type="radio" name="color" value="6" class="radiocolor" id="yellow"> <span style="color:yellow"> yellow</span>
+  <br>
+ <section> <button id=closebtn>close</button></section>
+	</form>
+    </div>
+	</div></td>
+	<td><div id=size>choose text size
+	<div id= txtsize>
+	<form>
+	<input type="radio" name="size" value="1" class="radiosize" id="14px" > <span  >small</span>
+  <br>
+  <input type="radio" name="size" value="2" class="radiosize" id="24px"> <span >medium</span>
+  <br>
+  <input type="radio" name="size" value="3" class="radiosize" id ="34px"> <span >large</span>
+	<br>
+ <section> <button id=sizeclosebtn>close</button></section>
+	</form>
+	
+	</div>
+
+	</div></td>
+	</tr>
+	
+	</table>
+	 </body>
+	 </html>
+	 
+	
